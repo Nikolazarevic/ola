@@ -1,0 +1,142 @@
+@media only screen and (max-width: 600px) {
+    #container {
+    	grid-template-rows: 60vh 72vh 35vh 40px 50px 60px 70px 80px;
+    }
+    .myPic {
+    	width: 120px;
+    	height: 120px;
+    }
+    .myPic:before {
+    	width: 120px;
+    	height: 120px;
+    }
+    .rightside {
+    	grid-row-gap: 5px;
+    }
+    .iconSocialMedia {
+    	width: 20px;
+    	height: 20px;
+    }
+    .iconSocialMedia:nth-child(2) {
+    	grid-row: 15/16;
+    }
+    .iconSocialMedia:nth-child(3) {
+    	grid-row: 16/17;
+    }
+    .iconSocialMedia:nth-child(4) {
+    	grid-row: 17/18;
+    }
+    .iconSocialMedia:nth-child(5) {
+    	grid-row: 18/19;
+    }
+    .iconSocialMedia:nth-child(6) {
+    	grid-row: 19/20;
+    }
+    .myInfo {
+    	grid-column: 2/11;
+    	grid-row: 3/9;
+    }
+    .myInfo h1 {
+        margin-top: 20px;
+		font-size: calc(1.5vw + 1.5vh + 0.9vmin);
+    	}
+    .myInfo h4 {
+		font-size: calc(0.8vw + 0.8vh + 0.2vmin);
+    	}
+    .text h4:nth-child(3) {
+		font-size: calc(1vw + 1vh + 0.2vmin);
+    }
+    .myInfo p {
+		font-size: calc(0.9vw + 0.9vh + 0.5vmin);
+    }
+
+    .mySignature {
+    	grid-row: 9/10;
+    }
+    .mySignature p {
+    	font-size: calc(1.3vw + 1.3vh + 0.3vmin);
+    }
+    .nextKnowledge {
+    	grid-row: 6/7;
+    }
+    .nextKnowledge p {
+    	font-size: calc(0.8vw + 0.8vh + 0.5vmin);
+    }
+    .arrowNext {
+    	grid-row: 7/8;
+    }
+    .aboutMe {
+    	grid-row: 9/10;
+    }
+    .myCV {
+    	grid-row: 10/11;
+        grid-column: 4/9;
+    }
+
+    .titleEducation {
+    	grid-column: 4/14;
+    }
+    .titleEducation h1 {
+    	font-size: calc(1vw + 1vh + 0.5vmin);
+    }
+    /*.circleYears {
+    	grid-column: 3/15;
+    }*/
+    .circle {
+    	width: 35px;
+    	height: 35px;
+    }
+    .years {
+    	width: 45px;
+    }
+    .circle:nth-child(3) {
+    	width: 15px;
+    	height: 15px;
+    }
+    .circle:nth-child(5) {
+    	width: 15px;
+    	height: 15px;
+    }
+    .circle:nth-child(7) {
+    	width: 15px;
+    	height: 15px;
+    }
+    .circle:nth-child(9) {
+    	width: 35px;
+    	height: 35px;
+    }
+    .end1 p {
+    	font-size: calc(0.8vw + 0.8vh + 0.3vmin);
+    }
+    .end2 p {
+    	font-size: calc(0.8vw + 0.8vh + 0.3vmin);
+    }
+    .end3 p {
+    	font-size: calc(0.8vw + 0.8vh + 0.3vmin);
+    }
+    .endSchool .endY {
+    	font-size: calc(0.8vw + 0.8vh + 0.3vmin);
+    }
+	.lifeDays {
+		grid-column: 3/15;
+		grid-template-columns: repeat(4, 1fr);
+        width: 70%;
+	}
+	.lifeDays p:nth-child(1) {
+		grid-column: 1/3;
+		font-size: calc(0.8vw + 0.8vh + 0.3vmin);
+	}
+	.lifeDays p:nth-child(2) {
+		grid-column: 3/5;
+		font-size: calc(0.8vw + 0.8vh + 0.3vmin);
+	}
+}
+
+@media only screen and (max-width: 530px) {
+	.end1 {
+		grid-column: 5/8;
+	}
+	.end3 {
+		grid-column: 10/13;
+	}
+}
